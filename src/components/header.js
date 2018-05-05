@@ -1,8 +1,7 @@
-import { autobind, decorate } from 'core-decorators';
-import Link from 'gatsby-link';
+import { autobind } from 'core-decorators';
 import { css } from 'glamor';
 import React, { Component } from 'react';
-import { COLORS, SHADOWS, ZINDEX } from 'theme';
+import { COLORS, ZINDEX } from 'theme';
 
 import { createKey } from 'utils/react';
 
@@ -54,27 +53,27 @@ class Header extends Component {
     this.MENU_ITEMS = [
       {
         name: 'Home',
-        href: '/'
+        href: 'https://lana.global'
       },
       {
         name: 'Browse',
-        href: '/browse',
+        href: 'https://lana.global/browse'
       },
       {
         name: 'Blog',
-        href: '/posts'
+        href: 'https://blog.lana.global'
       },
       {
         name: 'How it works',
-        href: '/how-it-works',
+        href: 'https://lana.global/how-it-works'
       },
       {
         name: 'Sign in',
-        href: '/login'
+        href: 'https://lana.global/login'
       },
       {
         name: 'Sign up',
-        href: '/register'
+        href: 'https://lana.global/register'
       }
     ];
   }
@@ -84,11 +83,11 @@ class Header extends Component {
     const key = createKey(name);
 
     return (
-      <Link {...link} to={href}>
+      <a {...link} href={href}>
         <div key={key} {...label}>
           {name}
         </div>
-      </Link>
+      </a>
     )
   }
 
