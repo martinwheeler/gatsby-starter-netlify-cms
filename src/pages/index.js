@@ -27,7 +27,24 @@ const postContainer = css({
 const featuredImage = css({
   height: '360px',
   width: '100%',
-  backgroundColor: 'rebeccapurple'
+  backgroundColor: 'rebeccapurple',
+
+  '&:hover > div': {
+    opacity: 1
+  }
+});
+const featuredImageOverlay = css({
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  backgroundColor: 'rgba(0,0,0,0.7)',
+  width: 'inherit',
+  height: 'inherit',
+  opacity: 0,
+  transition: 'opacity 300ms',
+});
+const featuredImageIcon = css({
+  color: 'white'
 });
 const contentWrapper = css({
   backgroundColor: '#EEEEED',
@@ -87,6 +104,8 @@ class Posts extends PureComponent {
       frontmatter: {
         title,
         date,
+        description,
+        thumbnail
       },
       excerpt
     } = post;
@@ -107,11 +126,17 @@ class Posts extends PureComponent {
 
     return (
       <div key={id} {...postContainer}>
-        <div {...featuredImage} />
+        <Link to={slug}>
+          <div {...featuredImage} style={{ backgroundImage: `url(${thumbnail})` }}>
+            <div {...featuredImageOverlay}>
+              <div {...featuredImageIcon}>{'>'}</div>
+            </div>
+          </div>
+        </Link>
         <div {...contentWrapper}>
           <div {...dateStyles}>{date}</div>
           <div {...headingStyles}>{title}</div>
-          <div {...descriptionStyles}>{excerpt}</div>
+          <div {...descriptionStyles}>{description}</div>
           <Link to={slug} {...linkStyles}>READ MORE</Link>
         </div>
       </div>
@@ -151,6 +176,8 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            description
+            thumbnail
             templateKey
             date(formatString: "MMMM DD, YYYY")
           }
