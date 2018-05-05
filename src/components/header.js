@@ -102,7 +102,7 @@ class Header extends Component {
     return (
       <div {...container}>
         <div {...wrapper}>
-          <img {...logo} src='http://lana.test/images/lana-logo.png'/>
+          <img {...logo} src='/img/lana-logo.png'/>
 
           <div {...menuItemsWrapper}>
             {this.renderMenuItems()}
