@@ -15,19 +15,28 @@ const postWrapper = css({
   display: 'flex',
   flexWrap: 'wrap',
   width: 'inherit',
-  padding: '0 15px'
+  padding: '0 15px',
+
+  '@media only screen and (max-width: 768px)': {
+    flexDirection: 'column'
+  }
 });
 const postContainer = css({
   maxWidth: '33.33%',
   display: 'flex',
   flexDirection: 'column',
   padding: '0 15px',
-  marginBottom: '30px'
+  marginBottom: '30px',
+  '@media only screen and (max-width: 768px)': {
+    maxWidth: '100%'
+  }
 });
 const featuredImage = css({
   height: '360px',
   width: '100%',
-  backgroundColor: 'rebeccapurple',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center top',
 
   '&:hover > div': {
     opacity: 1
