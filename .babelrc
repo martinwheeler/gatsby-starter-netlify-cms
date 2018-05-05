@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["safari >= 8"],
+        "uglify": true
+      }
+    }], "react"],
+  "plugins": [
+    "babel-plugin-transform-decorators-legacy",
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ]
+}

@@ -1,20 +1,30 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import Helmet from 'react-helmet';
+import PropTypes from 'prop-types';
+import { autobind } from 'core-decorators';
+import React, { PureComponent } from 'react';
 
-import Navbar from '../components/Navbar'
-import './all.sass'
+import Header from 'components/header';
+import Footer from 'components/footer';
+import 'layouts/all.sass';
 
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet title="Home | Gatsby + Netlify CMS" />
-    <Navbar />
-    <div>{children()}</div>
-  </div>
-)
+@autobind
+class TemplateWrapper extends PureComponent {
+  static propTypes = {
+    children: PropTypes.func,
+  };
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  render () {
+    const { children } = this.props;
+
+    return (
+      <div>
+        <Helmet title="Lana Edit" />
+        <Header />
+        <div>{children()}</div>
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default TemplateWrapper
