@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { autobind } from 'core-decorators';
 import React, { PureComponent } from 'react';
 
-import Header from 'components/header';
-import Footer from 'components/footer';
+import Header from 'containers/header';
+import Footer from 'containers/footer';
 import 'layouts/all.sass';
 
 @autobind

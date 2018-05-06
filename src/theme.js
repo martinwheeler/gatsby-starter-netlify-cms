@@ -1,5 +1,6 @@
 export const COLORS = {
-  LANA_GREEN: '#23A5AA'
+  LANA_GREEN: '#23A5AA',
+  LANA_PURPLE: '#49254A'
 };
 
 export const SHADOWS = {
@@ -8,4 +9,9 @@ export const SHADOWS = {
 
 export const ZINDEX = {
   HEADER: 5
+};
+
+export const SVG = {
+  Close: require('../static/icons/close.svg'),
+  Menu: require('../static/icons/menu.svg')
 };

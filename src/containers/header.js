@@ -1,9 +1,12 @@
-import { autobind } from 'core-decorators';
 import { css } from 'glamor';
+import { BASE_LANA_URL } from 'const';
 import React, { Component } from 'react';
-import { COLORS, ZINDEX } from 'theme';
+import { autobind } from 'core-decorators';
 
+import { COLORS, ZINDEX } from 'theme';
 import { createKey } from 'utils/react';
+import MobileMenu from 'containers/mobile-nav';
+import { MENU_CONFIG } from 'containers/nav-menu/menu-config';
 
 const container = css({
   display: 'flex',
@@ -29,7 +32,11 @@ const logo = css({
 });
 const menuItemsWrapper = css({
   display: 'flex',
-  alignItems: 'center'
+  alignItems: 'center',
+
+  '@media only screen and (max-width: 768px)': {
+    display: 'none'
+  }
 });
 const label = css({
   fontSize: '14px',
@@ -47,53 +54,23 @@ const link = css({
 
 @autobind
 class Header extends Component {
-  constructor (props) {
-    super(props);
-
-    this.MENU_ITEMS = [
-      {
-        name: 'Home',
-        href: 'https://lana.global'
-      },
-      {
-        name: 'Browse',
-        href: 'https://lana.global/browse'
-      },
-      {
-        name: 'Blog',
-        href: 'https://blog.lana.global'
-      },
-      {
-        name: 'How it works',
-        href: 'https://lana.global/how-it-works'
-      },
-      {
-        name: 'Sign in',
-        href: 'https://lana.global/login'
-      },
-      {
-        name: 'Sign up',
-        href: 'https://lana.global/register'
-      }
-    ];
-  }
-
   static mapMenuItem (item) {
     const { href, name } = item;
     const key = createKey(name);
+    const formattedLink = href.indexOf('http') > -1 ? href : `${BASE_LANA_URL}${href}`;
 
     return (
-      <a {...link} href={href}>
-        <div key={key} {...label}>
+      <a key={key} {...link} href={formattedLink}>
+        <div {...label}>
           {name}
         </div>
       </a>
     )
   }
 
-  renderMenuItems () {
+  static renderMenuItems () {
     return (
-      this.MENU_ITEMS.map(Header.mapMenuItem)
+      MENU_CONFIG.map(Header.mapMenuItem)
     )
   }
 
@@ -101,12 +78,16 @@ class Header extends Component {
     return (
       <div {...container}>
         <div {...wrapper}>
-          <img {...logo} src='/img/lana-logo.png'/>
+          <a style={{ display: 'flex' }} href={BASE_LANA_URL}>
+            <img {...logo} src='/img/lana-logo.png'/>
+          </a>
 
           <div {...menuItemsWrapper}>
-            {this.renderMenuItems()}
+            {Header.renderMenuItems()}
           </div>
         </div>
+
+        <MobileMenu />
       </div>
     );
   }

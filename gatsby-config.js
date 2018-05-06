@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Lana Edit',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -33,5 +33,12 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        include: /icons/
+      }
+    },
+    'gatsby-plugin-glamor',
   ],
-}
+};
