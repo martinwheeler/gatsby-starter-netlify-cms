@@ -14,22 +14,25 @@ const postWrapper = css({
   maxWidth: '1170px',
   display: 'flex',
   flexWrap: 'wrap',
+  justifyContent: 'center',
   width: 'inherit',
   padding: '0 15px',
 
-  '@media only screen and (max-width: 768px)': {
-    flexDirection: 'column'
-  }
+  // '@media only screen and (max-width: 768px)': {
+  //   flexDirection: 'column'
+  // }
 });
 const postContainer = css({
-  maxWidth: '33.33%',
+  minWidth: '260px',
+  maxWidth: '360px',
+  width: '100%',
   display: 'flex',
   flexDirection: 'column',
   padding: '0 15px',
   marginBottom: '30px',
-  '@media only screen and (max-width: 768px)': {
-    maxWidth: '100%'
-  }
+  // '@media only screen and (max-width: 768px)': {
+  //   maxWidth: '100%'
+  // }
 });
 const featuredImage = css({
   height: '360px',
