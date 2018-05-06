@@ -42,7 +42,6 @@ const menuListContainer = {
   overflowY: 'scroll',
   pointerEvents: 'all',
   willChange: 'transform',
-  borderLeft: `1px solid ${COLORS.LANA_PURPLE}`,
 
   '&::-webkit-scrollbar': {
     display: 'none'
