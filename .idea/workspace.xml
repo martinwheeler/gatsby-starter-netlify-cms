@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80b7542c-bd2c-4ae0-86da-f4a43ea86313" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/hamburger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/mobile-nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/nav-menu/menu-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/footer-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/icons/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/icons/menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/all.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,20 +26,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mobile-nav.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="mobile-nav.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/containers/mobile-nav.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+                <state relative-caret-position="833">
+                  <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="footer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/footer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-598">
-                  <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+                <state relative-caret-position="312">
+                  <caret line="97" column="12" lean-forward="true" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -90,11 +75,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="all.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/layouts/all.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="78">
+                  <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/footer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="910">
-                  <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+                <state relative-caret-position="416">
+                  <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -108,11 +102,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+                <state relative-caret-position="312">
+                  <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -162,15 +156,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="10" column="21" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -211,6 +196,8 @@
       <find>Montserrat</find>
       <find>currentAnimationStyle</find>
       <find>.map</find>
+      <find>logo</find>
+      <find>80</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -227,7 +214,6 @@
         <option value="$PROJECT_DIR$/src/utils/react.js" />
         <option value="$PROJECT_DIR$/src/layouts/index.js" />
         <option value="$PROJECT_DIR$/static/robots.txt" />
-        <option value="$PROJECT_DIR$/src/layouts/all.sass" />
         <option value="$PROJECT_DIR$/src/pages/posts/index.js" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
         <option value="$PROJECT_DIR$/static/admin/config.yml" />
@@ -251,9 +237,10 @@
         <option value="$PROJECT_DIR$/src/footer-config.js" />
         <option value="$PROJECT_DIR$/src/theme.js" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
-        <option value="$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js" />
         <option value="$PROJECT_DIR$/src/containers/header.js" />
+        <option value="$PROJECT_DIR$/src/layouts/all.sass" />
         <option value="$PROJECT_DIR$/src/containers/footer.js" />
+        <option value="$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js" />
       </list>
     </option>
   </component>
@@ -333,7 +320,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="confi&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;gats&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;theme&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/theme.js&#10;footer&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/footer.js&#10;icon&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/icon.js&#10;header&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/header.js&#10;hamb&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/hamburger.js&#10;mobile&#9;null&#9;null&#10;all.&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/layouts/all.sass&#10;post&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/templates/blog-post.js" />
+    <property name="SearchEverywhereHistoryKey" value="mobile&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/mobile-nav.js&#10;all.&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/layouts/all.sass&#10;confi&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;gats&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;theme&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/theme.js&#10;footer&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/footer.js&#10;icon&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/icon.js&#10;header&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/header.js&#10;hamb&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/hamburger.js&#10;post&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/templates/blog-post.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -377,12 +364,12 @@
       <updated>1525490599257</updated>
       <workItem from="1525490601175" duration="11668000" />
       <workItem from="1525568963793" duration="597000" />
-      <workItem from="1525581342623" duration="11407000" />
+      <workItem from="1525581342623" duration="12459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23672000" />
+    <option name="totallyTimeSpent" value="24724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3440" height="1440" extended-state="6" />
@@ -568,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/all.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -699,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/mobile-nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/footer-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -727,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
@@ -741,10 +707,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/all.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/mobile-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="416">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -23,13 +23,17 @@ const logoWrapper = css({
 const menuItemsWrapper = css({
   display: 'flex',
   width: 'inherit',
-  flexDirection: 'column',
   alignItems: 'flex-start',
-  margin: '10px 20px'
+  margin: '10px 20px',
+  justifyContent: 'center',
+
+  '@media only screen and (max-width: 768px)': {
+    flexDirection: 'column',
+  }
 });
 const label = css({
   fontSize: '16px',
-  lineHeight: '24px',
+  lineHeight: '28px',
   fontFamily: 'Montserrat, sans-serif',
   fontWeight: '400',
   textTransform: 'initial',
@@ -40,7 +44,7 @@ const headingLabel = css({
   fontWeight: '900',
   lineHeight: '24px',
   color: 'white',
-  padding: '20px 0 10px 0',
+  padding: '20px 25px 10px 25px',
 
   '& > span': {
     display: 'block',

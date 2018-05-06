@@ -2,7 +2,7 @@ import { BASE_LANA_URL } from 'const';
 import { autobind } from 'core-decorators';
 import { css } from 'glamor';
 import React, { PureComponent } from 'react';
-import { SVG } from "theme";
+import { COLORS, SVG } from "theme";
 
 const wrapper = css({
   position: 'fixed',
@@ -10,7 +10,7 @@ const wrapper = css({
   top: 0,
 
   minWidth: '320px',
-  width: '80%',
+  width: '100%',
   height: '100vh',
   overflow: 'hidden',
   willChange: 'transform',
@@ -42,6 +42,7 @@ const menuListContainer = {
   overflowY: 'scroll',
   pointerEvents: 'all',
   willChange: 'transform',
+  borderLeft: `1px solid ${COLORS.LANA_PURPLE}`,
 
   '&::-webkit-scrollbar': {
     display: 'none'
@@ -57,19 +58,19 @@ const menuItemsWrapper = css({
 const menuItem = css({
   display: 'flex',
   alignItems: 'center',
-  padding: '0 40px',
+  padding: '0 60px',
   cursor: 'pointer',
-  minHeight: '60px',
+  minHeight: '40px',
   color: 'white',
   textTransform: 'uppercase',
-  fontFamily: 'Quicksand, Arial, sans-serif',
-  fontSize: '18px',
+  fontFamily: 'Open Sans, Arial, sans-serif',
+  fontSize: '17px',
   fontWeight: '600',
   pointerEvents: 'all',
 
-  '&:hover': {
-    backgroundColor: 'rgba(0,0,0,0.05)'
-  }
+  '&:hover, &:focus, &:active': {
+    backgroundColor: 'rgba(0,0,0,0.1)'
+  },
 });
 
 const closeButton = css({
@@ -171,7 +172,7 @@ class MobileMenu extends PureComponent {
     const onClick = () => this.handleMenuNavigation(item);
 
     return (
-      <div key={item.name} {...css(menuItem)} onClick={onClick}>
+      <div key={item.name} {...menuItem} onClick={onClick}>
         {item.name}
       </div>
     );
