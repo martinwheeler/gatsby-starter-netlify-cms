@@ -10,7 +10,7 @@ import { MENU_CONFIG } from 'footer-config';
 const container = css({
   width: '100%',
   display: 'flex',
-  background: COLORS.LANA_GREEN,
+  background: 'black',
 });
 const wrapper = css({
   display: 'flex',

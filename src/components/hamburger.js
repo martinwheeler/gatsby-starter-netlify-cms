@@ -4,7 +4,7 @@ import React, { PureComponent } from 'react';
 const hamburgerWrapper = css({
   position: 'absolute',
   right: '20px',
-  minHeight: '20px',
+  minHeight: '22px',
   width: '30px',
   cursor: 'pointer',
 
@@ -15,9 +15,9 @@ const hamburgerWrapper = css({
 
 const hamburgerLine = css({
   position: 'absolute',
-  height: '20%',
+  height: '10%',
   width: 'inherit',
-  backgroundColor: 'rgb(66,66,66)',
+  backgroundColor: 'white',
   borderRadius: '0.94px',
 
   '&:nth-child(1n)': {

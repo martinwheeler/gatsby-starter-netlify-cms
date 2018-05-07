@@ -19,6 +19,12 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["Collection", "The Rest"]
+        }
 
   - name: "pages"
     label: "Pages"

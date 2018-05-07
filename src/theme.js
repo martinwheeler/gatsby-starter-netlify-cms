@@ -1,6 +1,8 @@
 export const COLORS = {
   LANA_GREEN: '#23A5AA',
-  LANA_PURPLE: '#49254A'
+  LANA_PURPLE: '#49254A',
+  PINK: '#AD7293',
+  PINK_GREY: '#E8DDE1'
 };
 
 export const SHADOWS = {

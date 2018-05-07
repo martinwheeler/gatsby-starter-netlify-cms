@@ -36,7 +36,7 @@ const menuListAnimation = {
 
 const menuListContainer = {
   position: 'relative',
-  backgroundColor: 'rgb(35, 165, 170)',
+  backgroundColor: COLORS.PINK,
   height: 'inherit',
   padding: '60px 0',
   overflowY: 'scroll',

@@ -13,13 +13,11 @@ const container = css({
   width: '100%',
   position: 'fixed',
   top: 0,
-  background: 'white',
+  backgroundColor: COLORS.PINK,
   zIndex: ZINDEX.HEADER,
-  borderBottomWidth: '1px',
-  borderBottomStyle: 'solid',
-  borderBottomColor: COLORS.LANA_GREEN,
   boxSizing: 'border-box',
-  height: '80px'
+  height: '80px',
+  color: 'white'
 });
 const wrapper = css({
   display: 'flex',
@@ -46,10 +44,13 @@ const label = css({
 });
 const link = css({
   color: 'currentColor',
-
   '&:hover': {
-    color: COLORS.LANA_GREEN
+    opacity: 0.75
   }
+});
+const titleLink = css({
+  textTransform: 'uppercase',
+  fontSize: '28px',
 });
 
 @autobind
@@ -78,8 +79,9 @@ class Header extends Component {
     return (
       <div {...container}>
         <div {...wrapper}>
-          <a style={{ display: 'flex' }} href={BASE_LANA_URL}>
-            <img {...logo} src='/img/lana-logo.png'/>
+          <a {...css(link, titleLink)} style={{ display: 'flex' }} href={BASE_LANA_URL}>
+            {/*<img {...logo} src='/img/lana-logo.png'/>*/}
+            The Edit
           </a>
 
           <div {...menuItemsWrapper}>
