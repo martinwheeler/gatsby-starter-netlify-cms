@@ -48,8 +48,7 @@ module.exports = {
         start_url: "/",
         background_color: 'white',
         theme_color: '#AD7293',
-        display: "minimal-ui",
-        icon: "img/lana-logo.png", // This path is relative to the root of the site.
+        display: "minimal-ui"
       },
     },
     'gatsby-plugin-offline'
