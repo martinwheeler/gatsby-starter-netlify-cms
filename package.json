@@ -41,6 +41,8 @@
     "core-decorators": "^0.20.0",
     "dotenv": "^5.0.1",
     "gatsby-plugin-glamor": "^1.6.13",
+    "gatsby-plugin-manifest": "^1.0.21",
+    "gatsby-plugin-offline": "^1.0.15",
     "gatsby-plugin-react-svg": "^1.1.1",
     "glamor": "^2.20.40",
     "prettier": "^1.7.4"
