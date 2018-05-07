@@ -1,5 +1,3 @@
-import { COLORS } from 'theme';
-
 module.exports = {
   siteMetadata: {
     title: 'Lana Edit',
@@ -49,7 +47,7 @@ module.exports = {
         short_name: "The Lana Edit",
         start_url: "/",
         background_color: 'white',
-        theme_color: COLORS.PINK,
+        theme_color: '#AD7293',
         display: "minimal-ui",
         icon: "img/lana-logo.png", // This path is relative to the root of the site.
       },
