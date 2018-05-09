@@ -1,4 +1,24 @@
+import { SVG } from 'theme';
+
 export const MENU_CONFIG = [
+  {
+    isHeading: true,
+    name: 'Our Story',
+    Icon: SVG.Story
+  },
+  {
+    isHeading: true,
+    name: 'Contact Us',
+    Icon: SVG.Contact
+  },
+  {
+    isHeading: true,
+    name: 'Subscribe',
+    Icon: SVG.Subscribe
+  }
+];
+
+const OLD_CONFIG = [
   {
     name: 'Official Things',
     menuItems: [

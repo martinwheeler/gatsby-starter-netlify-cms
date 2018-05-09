@@ -11,6 +11,12 @@ tags:
   - green beans
   - flavor
   - tasting
+categories:
+  - parenting
+  - fashion
+  - food
+  - travel
+  - beauty
 ---
 ![](/img/chemex.jpg)
 

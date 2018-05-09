@@ -2,36 +2,26 @@ export const MENU_CONFIG = [
   {
     id: 'home',
     name: 'Home',
-    href: '/'
+    href: 'https://shop.lana.global/'
   },
   {
-    id: 'browse',
-    name: 'Browse',
-    href: '/browse',
+    id: 'shop',
+    name: 'Shop',
+    href: 'https://shop.lana.global/collection',
   },
   {
-    id: 'blog',
-    name: 'Blog',
-    href: 'https://blog.lana.global'
+    id: 'loop',
+    name: 'Loop',
+    href: 'https://lana.global/loop'
   },
   {
-    id: 'howItWorks',
-    name: 'How it Works',
-    href: '/how-it-works'
+    id: 'about',
+    name: 'About',
+    href: 'https://lana.global/about'
   },
   {
-    id: 'listItem',
-    name: 'List Item',
-    href: '/upload-item',
-  },
-  {
-    id: 'signIn',
-    name: 'Sign In',
-    href: '/login'
-  },
-  {
-    id: 'signUp',
-    name: 'Sign Up',
-    href: '/register'
+    id: 'cart',
+    name: 'Cart',
+    href: 'https://shop.lana.global/cart',
   }
 ];

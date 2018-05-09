@@ -10,6 +10,12 @@ description: >-
 tags:
   - brewing
   - chemex
+categories:
+  - parenting
+  - fashion
+  - food
+  - travel
+  - beauty
 ---
 ![chemex](/img/chemex.jpg)
 

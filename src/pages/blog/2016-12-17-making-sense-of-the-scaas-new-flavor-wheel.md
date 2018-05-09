@@ -9,6 +9,12 @@ description: >-
 tags:
   - flavor
   - tasting
+categories:
+  - parenting
+  - fashion
+  - food
+  - travel
+  - beauty
 ---
 
 ![flavor wheel](/img/flavor_wheel.jpg)

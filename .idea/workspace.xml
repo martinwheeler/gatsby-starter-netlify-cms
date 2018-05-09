@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80b7542c-bd2c-4ae0-86da-f4a43ea86313" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/category-links/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/pintrest.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/nav-menu/menu-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/nav-menu/menu-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tags/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/tags/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,20 +30,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="650">
-                  <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="mobile-nav.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/containers/mobile-nav.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+                <state relative-caret-position="694">
+                  <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +42,35 @@
           <file leaf-file-name="footer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/footer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2522">
-                  <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+                <state relative-caret-position="289">
+                  <caret line="71" selection-start-line="71" selection-end-line="82" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/containers/category-links/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1544">
+                  <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="menu-config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/containers/nav-menu/menu-config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="546">
+                  <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/tags/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="495">
+                  <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -54,7 +87,7 @@
           <file leaf-file-name="hamburger.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/hamburger.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="271">
+                <state relative-caret-position="286">
                   <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="17" />
                 </state>
               </provider>
@@ -67,17 +100,53 @@
           <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/header.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="636">
-                  <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+                <state relative-caret-position="812">
+                  <caret line="95" column="58" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="all.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/layouts/all.sass">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="78">
-                  <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+                <state relative-caret-position="779">
+                  <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="494">
+                    <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="130">
+                    <caret line="4" column="9" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="2017-01-04-a-beginners-guide-to-brewing-with-chemex.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="312">
+                    <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="10" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -85,8 +154,8 @@
           <file leaf-file-name="footer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/footer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+                <state relative-caret-position="2106">
+                  <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -94,26 +163,22 @@
           <file leaf-file-name="footer-config.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/footer-config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="130">
-                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                <state relative-caret-position="416">
+                  <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#90#399#0" />
+                    <element signature="e#451#750#0" />
+                    <element signature="e#799#1262#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+          <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="284">
-                  <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+                <state relative-caret-position="476">
+                  <caret line="22" column="47" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -121,35 +186,17 @@
           <file leaf-file-name="theme.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/theme.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="13" selection-start-column="13" selection-end-column="13" />
+                <state relative-caret-position="598">
+                  <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="gatsby-config.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="gatsby-config.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gatsby-config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="458">
-                  <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gatsby-node.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gatsby-node.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2366">
-                  <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cms.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/cms/cms.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="27" selection-start-column="27" selection-end-column="27" />
+                <state relative-caret-position="26">
+                  <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -167,17 +214,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.section</find>
-      <find>section</find>
-      <find>3rem</find>
-      <find>Link</find>
-      <find>&quot;</find>
-      <find>html</find>
-      <find>thumnail</find>
-      <find>featureImage</find>
-      <find>33.33</find>
-      <find>jumbotron.jpg</find>
-      <find>/header</find>
       <find>MENU_ITEM</find>
       <find>TemplateWrapper</find>
       <find>/layouts</find>
@@ -193,10 +229,21 @@
       <find>.map</find>
       <find>logo</find>
       <find>80</find>
-      <find>thumbnail</find>
       <find>border</find>
       <find>mobile</find>
       <find>background</find>
+      <find>tags</find>
+      <find>tagPage</find>
+      <find>query</find>
+      <find>tagPageQuery</find>
+      <find>TagPage</find>
+      <find>kebabCase</find>
+      <find>Close</find>
+      <find>logoWrap</find>
+      <find>isHeading</find>
+      <find>link</find>
+      <find>Link</find>
+      <find>thumbnail</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -211,19 +258,14 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/utils/react.js" />
-        <option value="$PROJECT_DIR$/src/layouts/index.js" />
         <option value="$PROJECT_DIR$/static/robots.txt" />
         <option value="$PROJECT_DIR$/src/pages/posts/index.js" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
-        <option value="$PROJECT_DIR$/src/pages/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md" />
         <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
         <option value="$PROJECT_DIR$/src/cms/preview-templates/BlogPostPreview.js" />
-        <option value="$PROJECT_DIR$/src/pages/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex.md" />
-        <option value="$PROJECT_DIR$/src/pages/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/container/mobile-nav" />
         <option value="$PROJECT_DIR$/src/container/nav-menu/mobile/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/nav-menu/menu-config.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/const.js" />
         <option value="$PROJECT_DIR$/gatsby-node.js" />
@@ -231,15 +273,26 @@
         <option value="$PROJECT_DIR$/src/containers/mobile-nav.js" />
         <option value="$PROJECT_DIR$/src/components/icon.js" />
         <option value="$PROJECT_DIR$/src/components/footer.js" />
-        <option value="$PROJECT_DIR$/src/footer-config.js" />
         <option value="$PROJECT_DIR$/src/layouts/all.sass" />
         <option value="$PROJECT_DIR$/src/components/hamburger.js" />
-        <option value="$PROJECT_DIR$/src/containers/header.js" />
-        <option value="$PROJECT_DIR$/src/theme.js" />
         <option value="$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/footer.js" />
-        <option value="$PROJECT_DIR$/static/admin/config.yml" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/src/data/queries/tags.js" />
+        <option value="$PROJECT_DIR$/src/pages/tags/index.js" />
+        <option value="$PROJECT_DIR$/static/icons/facebook.svg" />
+        <option value="$PROJECT_DIR$/static/icons/instagram.svg" />
+        <option value="$PROJECT_DIR$/static/icons/pintrest.svg" />
+        <option value="$PROJECT_DIR$/src/theme.js" />
+        <option value="$PROJECT_DIR$/src/footer-config.js" />
+        <option value="$PROJECT_DIR$/src/containers/footer.js" />
+        <option value="$PROJECT_DIR$/src/containers/nav-menu/menu-config.js" />
+        <option value="$PROJECT_DIR$/src/pages/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex.md" />
+        <option value="$PROJECT_DIR$/static/admin/config.yml" />
+        <option value="$PROJECT_DIR$/src/containers/header.js" />
+        <option value="$PROJECT_DIR$/src/containers/category-links/index.js" />
+        <option value="$PROJECT_DIR$/src/layouts/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md" />
+        <option value="$PROJECT_DIR$/src/pages/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md" />
       </list>
     </option>
   </component>
@@ -259,7 +312,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="936" />
     <option name="y" value="136" />
     <option name="width" value="1920" />
@@ -292,13 +345,40 @@
             <path>
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-starter-netlify-cms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="blog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="products" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-netlify-cms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tags" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-starter-netlify-cms" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="gatsby-starter-netlify-cms" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +399,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;footer&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/footer.js&#10;mobile-&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/mobile-nav.js&#10;hambu&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/hamburger.js&#10;header&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/header.js&#10;mobile&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/mobile-nav.js&#10;all.&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/layouts/all.sass&#10;confi&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;gats&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;theme&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/theme.js&#10;icon&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/icon.js&#10;hamb&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/hamburger.js&#10;post&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/templates/blog-post.js" />
+    <property name="SearchEverywhereHistoryKey" value="posts&#9;null&#9;null&#10;header&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/header.js&#10;.y&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/static/admin/config.yml&#10;config.js&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/nav-menu/menu-config.js&#10;theme&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/theme.js&#10;footer&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/footer.js&#10;config&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;mobile-&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/mobile-nav.js&#10;hambu&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/hamburger.js&#10;mobile&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/containers/mobile-nav.js&#10;all.&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/layouts/all.sass&#10;confi&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;gats&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/gatsby-config.js&#10;icon&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/icon.js&#10;hamb&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/components/hamburger.js&#10;post&#9;FILE&#9;file:///Users/martin/code/gatsby-starter-netlify-cms/src/templates/blog-post.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -364,12 +444,13 @@
       <workItem from="1525490601175" duration="11668000" />
       <workItem from="1525568963793" duration="597000" />
       <workItem from="1525581342623" duration="13472000" />
-      <workItem from="1525676220506" duration="2269000" />
+      <workItem from="1525676220506" duration="2408000" />
+      <workItem from="1525856446416" duration="5750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28006000" />
+    <option name="totallyTimeSpent" value="33895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
@@ -406,77 +487,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2366">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/const.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/cms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/all.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/preview-templates/BlogPostPreview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/cms.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -590,50 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="208">
-            <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="208">
-            <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="182">
-            <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/nav-menu/menu-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-509">
@@ -645,13 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -691,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/footer-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/all.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -707,57 +665,158 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/hamburger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="286">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/mobile-nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/nav-menu/mobile/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
+        <state relative-caret-position="1040">
           <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/queries/tags.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/icons/instagram.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/icons/pintrest.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/icons/facebook.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/icons/close.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/icons/feed.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/icons/envelope.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/icons/bookmark.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/nav-menu/menu-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/footer-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#90#399#0" />
+            <element signature="e#451#750#0" />
+            <element signature="e#799#1262#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="2106">
+          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="95" column="58" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/category-links/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1544">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tags/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="188" column="23" lean-forward="true" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/mobile-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/blog/2017-01-04-a-beginners-guide-to-brewing-with-chemex.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="312">
+            <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/blog/2017-01-04-just-in-small-batch-of-jamaican-blue-mountain-in-store-next-week.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="494">
+            <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/blog/2016-12-17-making-sense-of-the-scaas-new-flavor-wheel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="130">
+            <caret line="4" column="9" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="476">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>

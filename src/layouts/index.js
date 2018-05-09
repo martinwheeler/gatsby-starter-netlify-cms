@@ -14,7 +14,9 @@ class TemplateWrapper extends PureComponent {
   };
 
   render () {
-    const { children } = this.props;
+    const { children, data } = this.props;
+    // debugger;
+    console.log('DATA: ', data);
 
     return (
       <div>
@@ -27,4 +29,14 @@ class TemplateWrapper extends PureComponent {
   }
 }
 
-export default TemplateWrapper
+export default TemplateWrapper;
+
+export const query = graphql`
+  query AboutQuery {
+    allMarkdownRemark {
+      group(field: frontmatter___categories) {
+        fieldValue
+      }
+    }
+  }
+`;

@@ -1,34 +1,45 @@
-import { css } from 'glamor';
+import { BASE_LANA_URL } from 'const';
 import { autobind } from 'core-decorators';
+import { MENU_CONFIG } from 'footer-config';
+import Link from 'gatsby-link';
+import { css } from 'glamor';
 import React, { PureComponent } from 'react';
 
-import { COLORS } from 'theme';
-import { BASE_LANA_URL } from 'const';
+import { SVG } from 'theme';
 import { createKey } from 'utils/react';
-import { MENU_CONFIG } from 'footer-config';
 
 const container = css({
   width: '100%',
   display: 'flex',
-  background: 'black',
+  background: '#F5F5F5'
 });
 const wrapper = css({
   display: 'flex',
   width: 'inherit',
   alignItems: 'center',
-  justifyContent: 'space-around'
+  justifyContent: 'center'
 });
 const logoWrapper = css({
+  display: 'flex',
+  justifyContent: 'center',
+  margin: '30px 0'
+});
+const logo = css({
+  width: '23px',
+  height: '23px',
+  margin: '0 10px'
 });
 const menuItemsWrapper = css({
   display: 'flex',
   width: 'inherit',
-  alignItems: 'flex-start',
-  margin: '10px 20px',
-  justifyContent: 'center',
+  alignItems: 'center',
+  justifyContent: 'space-around',
+  height: '85px',
+  padding: '0 40px',
+  maxWidth: '900px',
 
   '@media only screen and (max-width: 768px)': {
-    flexDirection: 'column',
+    flexDirection: 'column'
   }
 });
 const label = css({
@@ -36,31 +47,68 @@ const label = css({
   lineHeight: '28px',
   fontFamily: 'Montserrat, sans-serif',
   fontWeight: '400',
-  textTransform: 'initial',
+  textTransform: 'initial'
 });
 const headingLabel = css({
   textTransform: 'uppercase',
-  fontSize: '16px',
+  fontSize: '12px',
   fontWeight: '900',
   lineHeight: '24px',
-  color: 'white',
-  padding: '20px 25px 10px 25px',
+  height: 'inherit',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  flexBasis: '33.33%',
+  justifyContent: 'center',
 
   '& > span': {
-    display: 'block',
-    paddingBottom: '5px'
+    display: 'block'
   }
 });
+const menuItemIcon = css({
+  width: '20px',
+  height: 'auto'
+});
 const link = css({
-  color: 'white',
+  color: 'currentColor',
+  cursor: 'pointer',
+  userSelect: 'none',
+  opacity: '1',
 
   '&:hover': {
-    color: COLORS.LANA_PURPLE
+    opacity: '0.7',
+    color: 'currentColor',
+    textDecoration: 'inherit'
   }
+});
+
+const categoryWrapper = css({
+  display: 'flex',
+  maxWidth: '500px',
+  margin: '0 auto',
+  padding: '10px 0'
+});
+
+const category = css({
+  flex: '1 1 50%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: '58px'
+});
+
+const copyright = css({
+  display: 'flex',
+  justifyContent: 'center',
+  textTransform: 'uppercase',
+  fontSize: '10px',
+  marginBottom: '40px'
 });
 
 @autobind
 class Footer extends PureComponent {
+  currentYear = new Date().getFullYear();
+
   static withLink (children, key, url) {
     return (
       <a key={key} {...link} href={url}>
@@ -70,16 +118,20 @@ class Footer extends PureComponent {
   }
 
   static mapMenuItem (item) {
-    const { href, name, menuItems } = item;
+    const { href, name, menuItems, isHeading, Icon } = item;
     const key = createKey(name);
     const formattedLink = href && (href.indexOf('http') > -1 ? href : `${BASE_LANA_URL}${href}`) || null;
     const styling = css(
+      link,
       label,
-      menuItems && headingLabel || null
+      isHeading && headingLabel || null
     );
 
     const menuItemContent = (
       <div key={key} {...styling}>
+        {Icon && (
+          <span {...menuItemIcon}><Icon/></span>
+        )}
         <span>{name}</span>
         {menuItems && menuItems.map(Footer.mapMenuItem)}
       </div>
@@ -95,18 +147,56 @@ class Footer extends PureComponent {
   }
 
   render () {
+    const { Facebook, Instagram, Pintrest } = SVG;
+
     return (
-      <div {...container}>
-        <div {...wrapper}>
-
-          <div {...menuItemsWrapper}>
-            {Footer.renderMenuItems()}
+      <div>
+        <div {...container}>
+          <div {...wrapper}>
+            <div {...menuItemsWrapper}>
+              {Footer.renderMenuItems()}
+            </div>
           </div>
+        </div>
 
-
-          <div {...logoWrapper}>
-
+        <div {...categoryWrapper}>
+          <div {...css(category, link)}>
+            Parenting
           </div>
+          <div {...css(category, link)}>
+            Fashion
+          </div>
+          <div {...css(category, link)}>
+            Food
+          </div>
+          <div {...css(category, link)}>
+            Travel
+          </div>
+          <div {...css(category, link)}>
+            Beauty
+          </div>
+        </div>
+
+        <div {...logoWrapper}>
+          <div {...css(logo, link)}>
+            <a target='_blank' href='https://www.facebook.com/lana.global' {...css(link)}>
+              <Facebook/>
+            </a>
+          </div>
+          <div {...css(logo, link)}>
+            <a target='_blank' href='https://www.instagram.com/lana.global' {...css(link)}>
+              <Instagram/>
+            </a>
+          </div>
+          {/*<div {...css(logo, link)}>*/}
+            {/*<a href='#' {...css(link)}>*/}
+              {/*<Pintrest />*/}
+            {/*</a>*/}
+          {/*</div>*/}
+        </div>
+
+        <div {...copyright}>
+          &copy; {this.currentYear} &nbsp; <Link {...link} to='/'>The Lana Edit</Link>
         </div>
       </div>
     );

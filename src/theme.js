@@ -15,5 +15,11 @@ export const ZINDEX = {
 
 export const SVG = {
   Close: require('../static/icons/close.svg'),
-  Menu: require('../static/icons/menu.svg')
+  Menu: require('../static/icons/menu.svg'),
+  Facebook: require('../static/icons/facebook.svg'),
+  Instagram: require('../static/icons/instagram.svg'),
+  Pintrest: require('../static/icons/pintrest.svg'),
+  Story: require('../static/icons/bookmark.svg'),
+  Contact: require('../static/icons/envelope.svg'),
+  Subscribe: require('../static/icons/feed.svg'),
 };

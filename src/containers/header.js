@@ -1,12 +1,13 @@
-import { css } from 'glamor';
 import { BASE_LANA_URL } from 'const';
-import React, { Component } from 'react';
+import CategoryLinks from 'containers/category-links';
+import MobileMenu from 'containers/mobile-nav';
+import { MENU_CONFIG } from 'containers/nav-menu/menu-config';
 import { autobind } from 'core-decorators';
+import { css } from 'glamor';
+import React, { Component } from 'react';
 
 import { COLORS, ZINDEX } from 'theme';
 import { createKey } from 'utils/react';
-import MobileMenu from 'containers/mobile-nav';
-import { MENU_CONFIG } from 'containers/nav-menu/menu-config';
 
 const container = css({
   display: 'flex',
@@ -50,7 +51,7 @@ const link = css({
 });
 const titleLink = css({
   textTransform: 'uppercase',
-  fontSize: '28px',
+  fontSize: '28px'
 });
 
 @autobind
@@ -77,19 +78,22 @@ class Header extends Component {
 
   render () {
     return (
-      <div {...container}>
-        <div {...wrapper}>
-          <a {...css(link, titleLink)} style={{ display: 'flex' }} href={BASE_LANA_URL}>
-            {/*<img {...logo} src='/img/lana-logo.png'/>*/}
-            The Edit
-          </a>
+      <div>
+        <div {...container}>
+          <div {...wrapper}>
+            <a {...css(link, titleLink)} style={{ display: 'flex' }} href={BASE_LANA_URL}>
+              The Edit
+            </a>
 
-          <div {...menuItemsWrapper}>
-            {Header.renderMenuItems()}
+            <div {...menuItemsWrapper}>
+              {Header.renderMenuItems()}
+            </div>
           </div>
+
+          <MobileMenu/>
         </div>
 
-        <MobileMenu />
+        <CategoryLinks categories={this.props.categories} />
       </div>
     );
   }
