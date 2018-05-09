@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: A beginners’ guide to brewing with Chemex
+author: Lana
 date: 2017-01-04T15:04:10.000Z
 thumbnail: /img/chemex.jpg
 description: >-
@@ -12,10 +13,6 @@ tags:
   - chemex
 categories:
   - parenting
-  - fashion
-  - food
-  - travel
-  - beauty
 ---
 ![chemex](/img/chemex.jpg)
 
