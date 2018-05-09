@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: Making sense of the SCAA’s new Flavor Wheel
+author: Lana
 date: 2016-12-17T15:04:10.000Z
 thumbnail: /img/products-grid3.jpg
 description: >-
@@ -10,11 +11,7 @@ tags:
   - flavor
   - tasting
 categories:
-  - parenting
-  - fashion
   - food
-  - travel
-  - beauty
 ---
 
 ![flavor wheel](/img/flavor_wheel.jpg)
