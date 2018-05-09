@@ -65,7 +65,7 @@ export const categoryPageQuery = graphql`
       }
     }
     allMarkdownRemark(limit: 1000) {
-      group(field: frontmatter___tags) {
+      group(field: frontmatter___categories) {
         fieldValue
         totalCount
       }
