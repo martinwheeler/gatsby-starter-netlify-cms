@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
+author: Lana
 date: 2017-01-04T15:04:10.000Z
 thumbnail: /img/jumbotron.jpg
 description: >-
@@ -16,7 +17,6 @@ categories:
   - fashion
   - food
   - travel
-  - beauty
 ---
 ![](/img/chemex.jpg)
 
