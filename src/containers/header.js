@@ -1,10 +1,10 @@
 import { BASE_LANA_URL } from 'const';
-import CategoryLinks from 'containers/category-links';
 import MobileMenu from 'containers/mobile-nav';
 import { MENU_CONFIG } from 'containers/nav-menu/menu-config';
 import { autobind } from 'core-decorators';
 import { css } from 'glamor';
 import React, { Component } from 'react';
+import Link from 'gatsby-link';
 
 import { COLORS, ZINDEX } from 'theme';
 import { createKey } from 'utils/react';
@@ -78,22 +78,18 @@ class Header extends Component {
 
   render () {
     return (
-      <div>
-        <div {...container}>
-          <div {...wrapper}>
-            <a {...css(link, titleLink)} style={{ display: 'flex' }} href={BASE_LANA_URL}>
-              The Edit
-            </a>
+      <div {...container}>
+        <div {...wrapper}>
+          <Link {...css(link, titleLink)} style={{ display: 'flex' }} to={'/'}>
+            The Edit
+          </Link>
 
-            <div {...menuItemsWrapper}>
-              {Header.renderMenuItems()}
-            </div>
+          <div {...menuItemsWrapper}>
+            {Header.renderMenuItems()}
           </div>
-
-          <MobileMenu/>
         </div>
 
-        <CategoryLinks categories={this.props.categories} />
+        <MobileMenu/>
       </div>
     );
   }

@@ -5,7 +5,7 @@ import { css } from 'glamor';
 import { COLORS } from 'theme';
 
 const container = css({
-  marginTop: '130px',
+  marginTop: '30px',
   display: 'flex',
   justifyContent: 'center',
   width: '100%',

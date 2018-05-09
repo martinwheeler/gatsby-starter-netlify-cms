@@ -16,6 +16,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             }
             frontmatter {
               tags
+              categories
               templateKey
             }
           }
@@ -28,13 +29,14 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach(edge => {
       const id = edge.node.id
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
+        categories: edge.node.frontmatter.categories,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
@@ -43,22 +45,28 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           id
         }
       })
-    })
+    });
 
     // Tag pages:
-    let tags = []
+    let tags = [];
+    let categories = [];
     // Iterate through each post, putting all found tags into `tags`
     posts.forEach(edge => {
       if (_.get(edge, `node.frontmatter.tags`)) {
-        tags = tags.concat(edge.node.frontmatter.tags)
+        tags = tags.concat(edge.node.frontmatter.tags);
       }
-    })
-    // Eliminate duplicate tags
-    tags = _.uniq(tags)
+      if (_.get(edge, `node.frontmatter.categories`)) {
+        categories = categories.concat(edge.node.frontmatter.categories)
+      }
+    });
+
+    // Eliminate duplicates
+    tags = _.uniq(tags);
+    categories = _.uniq(categories);
 
     // Make tag pages
     tags.forEach(tag => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`
+      const tagPath = `/tags/${_.kebabCase(tag)}/`;
 
       createPage({
         path: tagPath,
@@ -67,15 +75,27 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           tag
         }
       })
-    })
+    });
+
+    categories.forEach(category => {
+      const categoryPath = `/category/${_.kebabCase(category)}/`;
+
+      createPage({
+        path: categoryPath,
+        component: path.resolve(`src/templates/category.js`),
+        context: {
+          category
+        }
+      })
+    });
   })
-}
+};
 
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators
+  const { createNodeField } = boundActionCreators;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,

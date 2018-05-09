@@ -1,5 +1,7 @@
 import { css } from 'glamor';
 import React, { PureComponent } from 'react';
+import Link from 'gatsby-link';
+import { kebabCase, capitalize } from 'lodash';
 
 const categoryWrapper = css({
   display: 'flex',
@@ -30,29 +32,21 @@ const link = css({
 });
 
 class CategoryLinks extends PureComponent {
-
-  constructor (props) {
-    super(props);
+  static renderCategory (category) {
+    return (
+      <div key={category.fieldValue} {...css(category, link)}>
+        <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
+          {capitalize(category.fieldValue)}
+        </Link>
+      </div>
+    );
   }
 
   render () {
+    const { categories } = this.props;
     return (
       <div {...categoryWrapper}>
-        <div {...css(category, link)}>
-          Parenting
-        </div>
-        <div {...css(category, link)}>
-          Fashion
-        </div>
-        <div {...css(category, link)}>
-          Food
-        </div>
-        <div {...css(category, link)}>
-          Travel
-        </div>
-        <div {...css(category, link)}>
-          Beauty
-        </div>
+        {categories.map(CategoryLinks.renderCategory)}
       </div>
     )
   }
