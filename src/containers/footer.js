@@ -1,4 +1,5 @@
 import { BASE_LANA_URL } from 'const';
+import CategoryLinks from 'containers/category-links';
 import { autobind } from 'core-decorators';
 import { MENU_CONFIG } from 'footer-config';
 import Link from 'gatsby-link';
@@ -147,6 +148,7 @@ class Footer extends PureComponent {
   }
 
   render () {
+    const { categories } = this.props;
     const { Facebook, Instagram, Pintrest } = SVG;
 
     return (
@@ -159,23 +161,7 @@ class Footer extends PureComponent {
           </div>
         </div>
 
-        <div {...categoryWrapper}>
-          <div {...css(category, link)}>
-            Parenting
-          </div>
-          <div {...css(category, link)}>
-            Fashion
-          </div>
-          <div {...css(category, link)}>
-            Food
-          </div>
-          <div {...css(category, link)}>
-            Travel
-          </div>
-          <div {...css(category, link)}>
-            Beauty
-          </div>
-        </div>
+        <CategoryLinks categories={categories} />
 
         <div {...logoWrapper}>
           <div {...css(logo, link)}>

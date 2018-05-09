@@ -10,7 +10,7 @@ const categoryWrapper = css({
   padding: '10px 0'
 });
 
-const category = css({
+const categoryStyles = css({
   flex: '1 1 50%',
   display: 'flex',
   justifyContent: 'center',
@@ -34,8 +34,8 @@ const link = css({
 class CategoryLinks extends PureComponent {
   static renderCategory (category) {
     return (
-      <div key={category.fieldValue} {...css(category, link)}>
-        <Link to={`/category/${kebabCase(category.fieldValue)}/`}>
+      <div key={category.fieldValue} {...css(categoryStyles)}>
+        <Link {...link} to={`/category/${kebabCase(category.fieldValue)}/`}>
           {capitalize(category.fieldValue)}
         </Link>
       </div>

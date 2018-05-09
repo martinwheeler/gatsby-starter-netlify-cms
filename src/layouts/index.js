@@ -30,7 +30,7 @@ class TemplateWrapper extends PureComponent {
         <div {...padding} />
         <CategoryLinks categories={categories}/>
         <div>{children()}</div>
-        <Footer />
+        <Footer categories={categories} />
       </div>
     )
   }

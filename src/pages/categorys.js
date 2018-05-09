@@ -18,7 +18,7 @@ const link = css({
   }
 });
 
-class AllTags extends PureComponent {
+class AllCategories extends PureComponent {
   render () {
     const {
       data: {
@@ -30,14 +30,14 @@ class AllTags extends PureComponent {
     } = this.props;
     return (
       <section className="section">
-        <Helmet title={`Tags | ${title}`}/>
+        <Helmet title={`Categories | ${title}`}/>
         <div className="container content">
           <div className="columns">
             <div
               className="column is-10 is-offset-1"
               style={{ marginBottom: '6rem' }}
             >
-              <h1 className="title is-size-2 is-bold-light">Tags</h1>
+              <h1 className="title is-size-2 is-bold-light">Categories</h1>
               <ul className="taglist">
                 {group.map(tag => (
                   <li key={tag.fieldValue}>
@@ -55,10 +55,10 @@ class AllTags extends PureComponent {
   }
 }
 
-export default AllTags;
+export default AllCategories;
 
-export const tagPageQuery = graphql`
-  query TagsQuery {
+export const categoryPageQuery = graphql`
+  query CategoriesQuery {
     site {
       siteMetadata {
         title

@@ -1,9 +1,24 @@
+import { css } from 'glamor';
 import React from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+import { COLORS } from 'theme';
 import Content, { HTMLContent } from '../components/Content'
+
+const link = css({
+  color: COLORS.PINK,
+  cursor: 'pointer',
+  userSelect: 'none',
+  opacity: '1',
+
+  '&:hover': {
+    opacity: '0.7',
+    color: 'currentColor',
+    textDecoration: 'inherit'
+  }
+});
 
 export const BlogPostTemplate = ({
   content,
@@ -32,7 +47,7 @@ export const BlogPostTemplate = ({
                 <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <Link {...link} to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                     </li>
                   ))}
                 </ul>

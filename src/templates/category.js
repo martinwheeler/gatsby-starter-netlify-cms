@@ -1,6 +1,21 @@
 import Link from 'gatsby-link'
+import { css } from 'glamor';
 import React from 'react'
 import Helmet from 'react-helmet'
+import { COLORS } from 'theme';
+
+const link = css({
+  color: COLORS.PINK,
+  cursor: 'pointer',
+  userSelect: 'none',
+  opacity: '1',
+
+  '&:hover': {
+    opacity: '0.7',
+    color: 'currentColor',
+    textDecoration: 'inherit'
+  }
+});
 
 class CategoryRoute extends React.Component {
   render () {
@@ -32,7 +47,7 @@ class CategoryRoute extends React.Component {
               <h3 className="title is-size-4 is-bold-light">{categoryHeader}</h3>
               <ul className="categorylist">{postLinks}</ul>
               <p>
-                <Link to="/categorys/">Browse all categorys</Link>
+                <Link {...link} to="/categorys/">Browse all categories</Link>
               </p>
             </div>
           </div>

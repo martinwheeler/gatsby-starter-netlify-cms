@@ -1,6 +1,20 @@
+import { css } from 'glamor';
 import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+
+const link = css({
+  color: 'currentColor',
+  cursor: 'pointer',
+  userSelect: 'none',
+  opacity: '1',
+
+  '&:hover': {
+    opacity: '0.7',
+    color: 'currentColor',
+    textDecoration: 'inherit'
+  }
+});
 
 class TagRoute extends React.Component {
   render() {
@@ -31,7 +45,7 @@ class TagRoute extends React.Component {
               <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
               <ul className="taglist">{postLinks}</ul>
               <p>
-                <Link to="/tags/">Browse all tags</Link>
+                <Link {...link} to="/tags/">Browse all tags</Link>
               </p>
             </div>
           </div>
