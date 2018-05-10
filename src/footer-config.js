@@ -11,7 +11,7 @@ export const MENU_CONFIG = [
     isHeading: true,
     name: 'Contact Us',
     Icon: SVG.Contact,
-    href: '/contact'
+    to: '/contact'
   },
   {
     isHeading: true,

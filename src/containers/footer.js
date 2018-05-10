@@ -110,7 +110,7 @@ const copyright = css({
 class Footer extends PureComponent {
   currentYear = new Date().getFullYear();
 
-  static withLink (children, key, url) {
+  static withUrl (children, key, url) {
     return (
       <a key={key} {...link} href={url}>
         {children}
@@ -118,8 +118,16 @@ class Footer extends PureComponent {
     );
   }
 
+  static withLink (children, key, url) {
+    return (
+      <Link key={key} {...link} to={url}>
+        {children}
+      </Link>
+    );
+  }
+
   static mapMenuItem (item) {
-    const { href, name, menuItems, isHeading, Icon } = item;
+    const { href, name, menuItems, isHeading, Icon, to } = item;
     const key = createKey(name);
     const formattedLink = href && (href.indexOf('http') > -1 ? href : `${BASE_LANA_URL}${href}`) || null;
     const styling = css(
@@ -138,7 +146,9 @@ class Footer extends PureComponent {
       </div>
     );
 
-    return formattedLink && Footer.withLink(menuItemContent, key, formattedLink) || menuItemContent;
+    return (formattedLink && Footer.withUrl(menuItemContent, key, formattedLink))
+      || (to && Footer.withLink(menuItemContent, key, to))
+      || menuItemContent;
   }
 
   static renderMenuItems () {
