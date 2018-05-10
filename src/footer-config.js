@@ -4,17 +4,20 @@ export const MENU_CONFIG = [
   {
     isHeading: true,
     name: 'Our Story',
-    Icon: SVG.Story
+    Icon: SVG.Story,
+    href: '/story'
   },
   {
     isHeading: true,
     name: 'Contact Us',
-    Icon: SVG.Contact
+    Icon: SVG.Contact,
+    href: '/contact'
   },
   {
     isHeading: true,
     name: 'Subscribe',
-    Icon: SVG.Subscribe
+    Icon: SVG.Subscribe,
+    href: '/subscribe'
   }
 ];
 
