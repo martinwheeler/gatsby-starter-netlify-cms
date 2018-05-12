@@ -35,12 +35,13 @@ const menuItemsWrapper = css({
   width: 'inherit',
   alignItems: 'center',
   justifyContent: 'space-around',
-  height: '85px',
+  minHeight: '85px',
   padding: '0 40px',
   maxWidth: '900px',
 
   '@media only screen and (max-width: 768px)': {
-    flexDirection: 'column'
+    flexDirection: 'column',
+    padding: '40px'
   }
 });
 const label = css({
@@ -48,7 +49,11 @@ const label = css({
   lineHeight: '28px',
   fontFamily: 'Montserrat, sans-serif',
   fontWeight: '400',
-  textTransform: 'initial'
+  textTransform: 'initial',
+
+  '@media only screen and (max-width: 768px)': {
+    marginBottom: '20px',
+  }
 });
 const headingLabel = css({
   textTransform: 'uppercase',
